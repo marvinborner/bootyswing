@@ -1,49 +1,180 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+          name="viewport">
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link href="css/reveal.css" rel="stylesheet">
+    <link href="css/theme/black.css" rel="stylesheet">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link href="lib/css/zenburn.css" rel="stylesheet">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section data-markdown>
+            ## Booty Swing - Parov Stelar
+            #### Marvin Borner, TGI 11.1
+        </section>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+        <section data-markdown>
+            ## Gliederung
+            1. Electroswing
+            2. Parov Stelar
+            3. Musikvideo
+            4. Analyse
+        </section>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+        <section>
+            <section data-markdown>## Geschichte des Electroswings</section>
+            <section>
+                <span data-markdown>## Jazz</span>
+                <p class="fragment">1900 von Afroamerikanern</p>
+                <p class="fragment">Jazzrhythmus (Offbeats)</p>
+                <p class="fragment">Improvisationen</p>
+                <p class="fragment">Blasinstrumente (Saxophon)</p>
+            </section>
+            <section>
+                <span data-markdown>## Swing</span>
+                <p class="fragment">Abwandlung des Jazz</p>
+                <p class="fragment">Besser zum tanzen</p>
+                <p class="fragment">Mehr Rhythmus (Offbeats) als Jazz</p>
+            </section>
+            <section>
+                <span data-markdown>## Electroswing</span>
+                <p class="fragment">Abwandlung des Swings</p>
+                <p class="fragment">Anfang 21. Jahrhundert</p>
+                <p class="fragment">Parov Stelar, Caravan Palace</p>
+                <p class="fragment">2010 "We No Speak Americano - Yolanda Be Cool"</p>
+            </section>
+            <section>
+                <span data-markdown>## Eigenschaften</span>
+                <p class="fragment">Alte Sprachsamples</p>
+                <p class="fragment">Swingrhythmik mit elektronischen Beats</p>
+                <p class="fragment">&rarr; Tanzbarkeit steigt</p>
+            </section>
+        </section>
+
+        <section>
+            <p data-markdown>## Parov Stelar</p>
+            <section>
+                <img class="fragment" style="height: 50vh; width: auto"
+                     data-src="media/ParovStelar.jpg">
+            </section>
+            <section>
+                <p class="fragment">In Österreich geboren</p>
+                <p class="fragment">Große Einwirkung auf Electroswing</p>
+                <p class="fragment">Hohe Berühmtheit im Internet</p>
+                <p class="fragment">Lana Del Ray, Bryan Ferry, Lady Gaga</p>
+            </section>
+        </section>
+
+        <section>
+            <p data-markdown>## Musikvideo</p>
+            <p class="fragment">25. Januar 2012</p>
+            <p class="fragment">Ausschnitte aus "Swing Time" von 1939</p>
+            <p class="fragment">54 Millionen Aufrufe</p>
+        </section>
+
+        <section data-background-size="contain" data-background-video="media/video.mp4"></section>
+
+        <section
+                style="backface-visibility: visible; -webkit-backface-visibility: visible; pointer-events: all">
+            <audio style="position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33; transform: translate(0, 0) !important; opacity: 1 !important;"
+                   id="audio" controls data-ignore preload="auto" src="media/song.mp3"></audio>
+            <p data-markdown>## Analyse</p>
+            <section>
+                <span>Now, Arab sheikhs on the burning sands<br></span>
+                <span>Come into their harems and clap their hands<br></span>
+                <span>Said, "Come on, girls, are you ready to play?<br></span>
+                <span>Let's have a little more of that swingin' today."<br></span>
+                <span>Now, in the land of Fu Manchu<br></span>
+                <span>The girls all now do the Suzie-Q<br></span>
+                <span>Clap their hands in the center of the floor<br></span>
+                <span>Saying, "Ching, ching, chop-suey, swing some more!"<br></span>
+            </section>
+            <section>
+                <span>Now, geisha girls in old Japan<br></span>
+                <span>Wink behind their peacock fans<br></span>
+                <span>Since they learned to say, "Yeah!<br></span>
+                <span>Let's swing it like Amelican's swing swing dance!"<br></span>
+            </section>
+            <section>
+                <span>Now, Gypsy caravans have changed their mode<br></span>
+                <span>They truck down the Romany road<br></span>
+                <span>With their hi-de-hoes, and their hey-hey-diddle<br></span>
+                <span>Doin' the swing on the Gypsy fiddle<br></span>
+            </section>
+            <section>
+                <span>Them eastern wisemen know the story<br></span>
+                <span>Of the swing with Oriental glory<br></span>
+                <span>They stroke their beards and grin<br></span>
+                <span>Sayin', "Swing, little children, till the dawn comes in!"<br></span>
+                <span>Now, geisha girls in old Japan<br></span>
+                <span>Wink behind their peacock fans<br></span>
+                <span>Since they learned to say, "Yeah!<br></span>
+                <span>Let's swing it like Amelican's swing swing dance!"<br></span>
+            </section>
+            <section>
+                <span>Gypsy caravans have changed their mode<br></span>
+                <span>They truck down the Romany road<br></span>
+                <span>With their hi-de-hoes, and their hey-hey-diddle<br></span>
+                <span>Doin' the swing on the Gypsy fiddle<br></span>
+            </section>
+        </section>
+
+        <section data-markdown>
+            ## Danke für Eure Aufmerksamkeit
+            # ☺
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+  // More info about config & dependencies:
+  // - https://github.com/hakimel/reveal.js#configuration
+  // - https://github.com/hakimel/reveal.js#dependencies
+  Reveal.initialize({
+    //controls: false,
+    dependencies: [
+      {src: 'plugin/markdown/marked.js'},
+      {src: 'plugin/markdown/markdown.js'},
+      {src: 'plugin/notes/notes.js', async: true},
+      {
+        src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+          hljs.initHighlightingOnLoad();
+        }
+      }
+    ]
+  });
+
+
+  Reveal.configure({
+    keyboard: {
+      80: () => {
+        if (document.getElementById('audio').paused)
+          document.getElementById('audio').play();
+        else
+          document.getElementById('audio').pause();
+      }
+    }
+  });
+</script>
+</body>
 </html>
